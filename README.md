@@ -9,13 +9,9 @@ Projenin tüm teknik anlatımı notebook dosyaları içerisinde markdown hücrel
 
 # Metrikler
 Model eğitimi sonucunda elde edilen performans değerlendirme metrikleri şunlardır:
-
 Eğitim ve doğrulama doğruluk (accuracy) ile kayıp (loss) grafikleri, modelin öğrenme sürecini ve genel performansını görselleştirmek için kullanılmıştır.
-
 Confusion Matrix, sınıflandırma doğruluğunu sınıf bazında analiz etmek için uygulanmıştır.
-
 Classification Report (precision, recall, F1-score) ile modelin sınıflar üzerindeki detaylı performansı değerlendirilmiştir.
-
 Grad-CAM görselleştirmeleri, modelin kararlarını verirken görüntülerde hangi bölgelere odaklandığını göstermek amacıyla kullanılmıştır.
 
 Bu metrikler üzerinden modelin overfitting veya underfitting durumu analiz edilmiş ve gerektiğinde dropout ile regularization gibi yöntemlerle modelin genelleme yeteneği artırılmıştır.
@@ -26,11 +22,8 @@ Bu proje, temel bir CNN mimarisi ile başarılı bir görüntü sınıflandırma
 Gelecekte şu adımlar planlanmaktadır:
 
 Daha büyük ve kompleks veri setleri ile modelin geliştirilmesi
-
 Transfer Learning yöntemleri (VGG16, ResNet, EfficientNet vb.) ile performans artırılması
-
 Daha gelişmiş hiperparametre optimizasyon yöntemlerinin uygulanması (Bayesian Optimization, Keras Tuner)
-
 Gerçek zamanlı kullanım için mobil / web tabanlı deploy süreçlerinin eklenmesi
 
 

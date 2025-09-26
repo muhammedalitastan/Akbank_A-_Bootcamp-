@@ -41,3 +41,7 @@ Gerçek zamanlı kullanım için mobil / web tabanlı deploy süreçlerinin ekle
 
 # Linkler
 Kaggle linklerine aşağıdan ulaşabilirsiniz
+
+Kaggle proje linki: https://www.kaggle.com/code/muhammet3425/cnn-model-e-itimi
+Kaggle dataset linki: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+

@@ -1,29 +1,24 @@
 # CNN ile Görüntü Sınıflandırma Projesi
-Bu repo, Akbank Derin Öğrenme Bootcamp kapsamında gerçekleştirdiğim derin öğrenme projesini içermektedir. Projede, CNN (Convolutional Neural Network) mimarisi kullanılarak bir görüntü sınıflandırma modeli geliştirilmiştir.
+Bu proje, manyetik rezonans görüntüleri (MRI) kullanarak beyindeki tümörleri tespit etmeye yönelik bir derin öğrenme modeli geliştirmeyi amaçlamaktadır. Projede Convolutional Neural Network (CNN) mimarisi kullanılmıştır ve modelin eğitiminde veri ön işleme, veri artırma (data augmentation) ve hiperparametre optimizasyonu teknikleri uygulanmıştır.
 
 # Giriş 
-Bu projede seçilen veri seti kullanılarak görüntüler sınıflandırılmıştır.
-Projenin temel adımları şunlardır:
-Veri önişleme ve görselleştirme
-Data Augmentation yöntemleri ile veri çoğaltma
-CNN tabanlı modelin tasarlanması ve eğitilmesi
-Modelin değerlendirilmesi (Accuracy, Loss, Confusion Matrix vb.)
-Grad-CAM ile modelin karar bölgelerinin görselleştirilmesi
-Hiperparametre optimizasyonu
+Bu proje kapsamında, beyin tümörlerinin tespiti amacıyla MRI (Manyetik Rezonans Görüntüleme) verileri kullanılmıştır. Beyin tümörleri, erken teşhis edilmediğinde ciddi sağlık sorunlarına yol açabilen ve hayati risk taşıyan rahatsızlıklardır. Bu nedenle, tümörleri hızlı ve doğru bir şekilde tespit edebilen otomatik bir sistem geliştirmek büyük önem taşımaktadır.
+
+Projede, görüntü sınıflandırma problemleri için oldukça etkili bir yöntem olan Convolutional Neural Network (CNN) mimarisi kullanılmıştır. CNN modeli, MRI görüntülerindeki tümörlü ve tümörsüz bölgeleri ayırt edebilmek için eğitilmiş ve doğrulama verileri üzerinden performansı değerlendirilmiştir. Ayrıca, veri ön işleme ve veri artırma (data augmentation) teknikleri uygulanarak modelin genelleme yeteneği artırılmış ve overfitting riski azaltılmıştır.
 Projenin tüm teknik anlatımı notebook dosyaları içerisinde markdown hücrelerinde detaylı olarak verilmiştir.
 
 # Metrikler
-Model eğitimi sonucunda elde edilen başarı metrikleri:
+Model eğitimi sonucunda elde edilen performans değerlendirme metrikleri şunlardır:
 
-Eğitim ve doğrulama accuracy / loss grafikleri
+Eğitim ve doğrulama doğruluk (accuracy) ile kayıp (loss) grafikleri, modelin öğrenme sürecini ve genel performansını görselleştirmek için kullanılmıştır.
 
-Confusion Matrix ile sınıflandırma performansı
+Confusion Matrix, sınıflandırma doğruluğunu sınıf bazında analiz etmek için uygulanmıştır.
 
-Classification Report (precision, recall, f1-score)
+Classification Report (precision, recall, F1-score) ile modelin sınıflar üzerindeki detaylı performansı değerlendirilmiştir.
 
-Grad-CAM görselleştirmeleri ile modelin odaklandığı bölgeler
+Grad-CAM görselleştirmeleri, modelin kararlarını verirken görüntülerde hangi bölgelere odaklandığını göstermek amacıyla kullanılmıştır.
 
-Bu metrikler üzerinden modelin overfitting ve underfitting durumları yorumlanmıştır. Ayrıca, dropout ve regularization gibi yöntemlerle modelin genelleme kabiliyeti artırılmıştır.
+Bu metrikler üzerinden modelin overfitting veya underfitting durumu analiz edilmiş ve gerektiğinde dropout ile regularization gibi yöntemlerle modelin genelleme yeteneği artırılmıştır.
 
 
 # Sonuç ve Gelecek Çalışmalar

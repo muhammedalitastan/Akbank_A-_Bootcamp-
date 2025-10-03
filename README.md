@@ -26,6 +26,8 @@ Transfer Learning yöntemleri (VGG16, ResNet, EfficientNet vb.) ile performans a
 Daha gelişmiş hiperparametre optimizasyon yöntemlerinin uygulanması (Bayesian Optimization, Keras Tuner)
 Gerçek zamanlı kullanım için mobil / web tabanlı deploy süreçlerinin eklenmesi
 
+<img width="510" height="337" alt="image" src="https://github.com/user-attachments/assets/cbfc4a2f-84cc-4cc3-964d-33e20e7a3ea6" />
+
 
 # Linkler
 Kaggle linklerine aşağıdan ulaşabilirsiniz

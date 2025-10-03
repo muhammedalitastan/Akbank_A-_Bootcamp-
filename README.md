@@ -27,6 +27,7 @@ Daha gelişmiş hiperparametre optimizasyon yöntemlerinin uygulanması (Bayesia
 Gerçek zamanlı kullanım için mobil / web tabanlı deploy süreçlerinin eklenmesi
 
 <img width="510" height="337" alt="image" src="https://github.com/user-attachments/assets/cbfc4a2f-84cc-4cc3-964d-33e20e7a3ea6" />
+<img width="645" height="659" alt="Ekran görüntüsü 2025-10-03 232823" src="https://github.com/user-attachments/assets/2e573202-7de2-46ec-9c6e-ed94259dfe09" />
 
 
 # Linkler

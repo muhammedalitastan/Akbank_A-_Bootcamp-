@@ -28,11 +28,14 @@ Gerçek zamanlı kullanım için mobil / web tabanlı deploy süreçlerinin ekle
 
 # Eğitim Tablosu
 <img width="510" height="337" alt="image" src="https://github.com/user-attachments/assets/cbfc4a2f-84cc-4cc3-964d-33e20e7a3ea6" />
+
 # Örnek Veriler
 <img width="645" height="659" alt="Ekran görüntüsü 2025-10-03 232823" src="https://github.com/user-attachments/assets/2e573202-7de2-46ec-9c6e-ed94259dfe09" />
+
 # Model Lost Tabloları
 <img width="721" height="323" alt="image" src="https://github.com/user-attachments/assets/779697e7-217e-41e4-b752-a82818b3eef8" />
 <img width="433" height="586" alt="Ekran görüntüsü 2025-10-03 234254" src="https://github.com/user-attachments/assets/777dc73f-4954-4317-8f1a-d74afc6ec2b6" />
+
 # Model Tahmini
 <img width="833" height="479" alt="Ekran görüntüsü 2025-10-03 233720" src="https://github.com/user-attachments/assets/43fe9be0-dfea-4104-a2d8-2210175320f8" />
 
